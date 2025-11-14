@@ -18,7 +18,7 @@ export default function HomeScreen() {
   const [loading, setLoading] = useState(true);
 
   // ⚙️ URL NGROK
-  const API_URL = "https://2c7964582762.ngrok-free.app/signals";
+  const API_URL = "http://127.0.0.1:8000/signals";
 
   // 🔄 Cargar señales
   const fetchSignals = async () => {
